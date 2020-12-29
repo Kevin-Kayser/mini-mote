@@ -1,0 +1,350 @@
+1208370823004, Simulation started
+1208370824738, User pressed On/Off hard button
+1208370825707, User opened device TV
+1208370827644, User pressed TV channel up
+1208370827660, TV turned on from channel up button
+1208370829488, User pressed Home hard button
+1208370830832, User opened device TV
+1208370831660, User pressed TV power button
+1208370832551, User pressed Home hard button
+1208370833895, Transitioning to state Settings
+1208370834395, Transitioning to state AddDevice
+1208370835113, Transitioning to state Keypad
+1208370835723, Transitioning to state Keypad2
+1208370836598, User pressed the "a" button
+1208370836598, Transitioning to state Keypad
+1208370837379, Transitioning to state AddDevice
+1208370837848, Transitioning to state Type
+1208370839364, Error click
+1208370840036, User pressed the "DVD" button
+1208370840067, Transitioning to state AddDevice
+1208370840848, User creating device
+1208370840864, User created device "a" type DVD
+1208370840864, Transitioning to state Main
+1208370842411, User opened device DVD
+1208370843270, User pressed TV channel up
+1208370843270, TV turned on from channel up button
+1208370843942, User pressed TV channel down
+1208370844348, User pressed TV channel up
+1208370844770, User pressed TV channel up
+1208370845020, User pressed TV channel up
+1208370845176, User pressed TV channel up
+1208370845411, User pressed TV channel up
+1208370845598, User pressed TV channel up
+1208370846005, User pressed TV channel up
+1208370846223, User pressed TV channel up
+1208370846411, User pressed TV channel up
+1208370846598, User pressed TV channel up
+1208370846739, User pressed TV channel up
+1208370847005, User pressed TV channel down
+1208370847145, User pressed TV channel down
+1208370847317, User pressed TV channel down
+1208370847458, User pressed TV channel down
+1208370847614, User pressed TV channel down
+1208370847770, User pressed TV channel down
+1208370848942, Error click
+1208370849161, Error click
+1208370851505, User pressed Home hard button
+1208370853286, User opened device TV
+1208370854036, User pressed TV power button
+1208370854646, Error click
+1208370854974, User pressed Home hard button
+1208370855661, User opened device DVD
+1208370858099, User pressed TV channel up
+1208370858114, TV turned on from channel up button
+1208370859521, User pressed TV channel up
+1208370860115, User pressed TV channel up
+1208370860615, User pressed TV channel up
+1208370861115, Error click
+1208370861787, Error click
+1208370863865, Error click
+1208370864380, Error click
+1208370865724, Error click
+1208370872709, User pressed TV channel up
+1208370873428, User pressed TV channel up
+1208370874006, User pressed TV channel up
+1208370874600, User pressed TV channel up
+1208370875162, User pressed TV channel up
+1208370875709, User pressed TV channel up
+1208370876225, User pressed TV channel up
+1208370876865, User pressed TV channel up
+1208370877412, User pressed TV channel up
+1208370877928, User pressed TV channel up
+1208370878412, User pressed TV channel up
+1208370878912, User pressed TV channel up
+1208370879412, User pressed TV channel up
+1208370879928, User pressed TV channel up
+1208370880444, User pressed TV channel up
+1208370880912, User pressed TV channel up
+1208370881381, User pressed TV channel up
+1208370881866, User pressed TV channel up
+1208370882319, User pressed TV channel up
+1208370882756, User pressed TV channel up
+1208370883162, User pressed TV channel up
+1208370883584, User pressed TV channel up
+1208370884038, User pressed TV channel up
+1208370884475, User pressed TV channel up
+1208370884897, User pressed TV channel up
+1208370885303, User pressed TV channel up
+1208370885725, User pressed TV channel up
+1208370886131, User pressed TV channel up
+1208370886553, User pressed TV channel up
+1208370886944, User pressed TV channel up
+1208370887350, User pressed TV channel up
+1208370887710, User pressed TV channel up
+1208370887975, User pressed TV channel up
+1208370888210, User pressed TV channel up
+1208370888413, User pressed TV channel up
+1208370888616, User pressed TV channel up
+1208370888788, User pressed TV channel up
+1208370889053, User pressed TV channel up
+1208370889257, User pressed TV channel up
+1208370889444, User pressed TV channel up
+1208370889632, User pressed TV channel up
+1208370889850, User pressed TV channel up
+1208370890007, User pressed TV channel up
+1208370890225, User pressed TV channel up
+1208370890444, User pressed TV channel up
+1208370890616, User pressed TV channel up
+1208370890803, User pressed TV channel up
+1208370891007, User pressed TV channel up
+1208370891178, User pressed TV channel up
+1208370891350, User pressed TV channel up
+1208370891538, User pressed TV channel up
+1208370891741, User pressed TV channel up
+1208370891944, User pressed TV channel up
+1208370892116, User pressed TV channel up
+1208370892288, User pressed TV channel up
+1208370893022, User pressed TV channel up
+1208370893475, User pressed TV channel up
+1208370894022, User pressed TV channel up
+1208370894491, User pressed TV channel up
+1208370894976, User pressed TV channel up
+1208370954291, User pressed TV channel up
+1208370954759, User pressed TV channel up
+1208370957994, User pressed TV channel up
+1208370958853, User pressed TV channel up
+1208370959619, User pressed TV channel up
+1208370960291, User pressed TV channel up
+1208370961072, User pressed TV channel up
+1208371070437, Simulation started
+1208371072312, User pressed On/Off hard button
+1208371073171, User opened device TV
+1208371073890, User pressed TV power button
+1208371074937, User pressed TV channel down
+1208371075624, User pressed TV channel up
+1208371075859, User pressed TV channel up
+1208371076109, User pressed TV channel up
+1208371076624, User pressed TV channel down
+1208371076765, User pressed TV channel down
+1208371076921, User pressed TV channel down
+1208371077359, User pressed TV channel down
+1208371077624, User pressed TV channel down
+1208371077859, User pressed TV channel down
+1208371078077, User pressed TV channel down
+1208371078281, User pressed TV channel down
+1208371078515, User pressed TV channel down
+1208371078702, User pressed TV channel down
+1208371078890, User pressed TV channel down
+1208371079093, User pressed TV channel down
+1208371079265, User pressed TV channel down
+1208371079437, User pressed TV channel down
+1208371079609, User pressed TV channel down
+1208371079749, User pressed TV channel down
+1208371079984, User pressed TV channel down
+1208371080296, User pressed TV channel down
+1208371080499, User pressed TV channel down
+1208371080718, User pressed TV channel down
+1208371080921, User pressed TV channel down
+1208371081171, User pressed TV channel down
+1208371081390, User pressed TV channel down
+1208371081578, User pressed TV channel down
+1208371081812, User pressed TV channel down
+1208371082453, User pressed TV channel up
+1208371082859, User pressed TV channel down
+1208371083093, User pressed TV channel down
+1208371083343, User pressed TV channel down
+1208371083578, User pressed TV channel down
+1208371083859, User pressed TV channel down
+1208371084109, User pressed TV channel down
+1208371084328, User pressed TV channel down
+1208371084625, User pressed TV channel down
+1208371084906, User pressed TV channel down
+1208371085218, User pressed TV channel down
+1208371085562, User pressed TV channel down
+1208371085859, User pressed TV channel down
+1208371086125, User pressed TV channel down
+1208371086375, User pressed TV channel down
+1208371086672, User pressed TV channel down
+1208371086937, User pressed TV channel down
+1208371087219, User pressed TV channel down
+1208371087500, User pressed TV channel down
+1208371087750, User pressed TV channel down
+1208371088015, User pressed TV channel down
+1208371088265, User pressed TV channel down
+1208371088531, User pressed TV channel down
+1208371088937, User pressed TV channel up
+1208371089140, User pressed TV channel up
+1208371245366, Simulation started
+1208371246819, User pressed On/Off hard button
+1208371247788, User opened device TV
+1208371248757, User pressed TV power button
+1208371250335, User pressed TV channel up
+1208371250601, User pressed TV channel up
+1208371250741, User pressed TV channel up
+1208371250976, User pressed TV channel up
+1208371251148, User pressed TV channel up
+1208371251351, User pressed TV channel up
+1208371251460, User pressed TV channel up
+1208371251632, User pressed TV channel up
+1208371251742, User pressed TV channel up
+1208371251929, User pressed TV channel up
+1208371252195, Transitioning to state Channel
+1208371252773, User pressed the TV 2 button
+1208371253210, User pressed the TV 8 button
+1208371253320, TV channel changed to 28
+1208371253882, User pressed TV channel up
+1208371417765, Simulation started
+1208371420546, User pressed On/Off hard button
+1208371421452, User opened device TV
+1208371421999, User pressed TV power button
+1208371423077, Transitioning to state Channel
+1208371423640, User pressed the TV 2 button
+1208371424265, User pressed the TV 8 button
+1208371424296, TV channel changed to 28
+1208371424874, User pressed TV channel up
+1208371441125, Simulation started
+1208371442281, Error click
+1208371442719, User pressed On/Off hard button
+1208371444500, User pressed On/Off hard button
+1208371444922, User pressed On/Off hard button
+1208371446141, Error click
+1208371446422, User pressed On/Off hard button
+1208371447282, User pressed On/Off hard button
+1208371447828, User pressed On/Off hard button
+1208371448485, User pressed On/Off hard button
+1208371449219, User pressed On/Off hard button
+1208371449750, User pressed On/Off hard button
+1208371450516, User pressed On/Off hard button
+1208371451125, User pressed On/Off hard button
+1208371452204, User pressed On/Off hard button
+1208371452891, User pressed On/Off hard button
+1208371455469, Simulation started
+1208371456423, User pressed On/Off hard button
+1208371457938, User pressed On/Off hard button
+1208371458813, User pressed On/Off hard button
+1208371459907, User pressed On/Off hard button
+1208371461360, User pressed On/Off hard button
+1208371463345, User pressed On/Off hard button
+1208371464298, User pressed On/Off hard button
+1208371466907, User opened device TV
+1208371467907, User pressed TV power button
+1208371468907, Transitioning to state Channel
+1208371469798, User pressed the TV 2 button
+1208371470329, User pressed the TV 8 button
+1208371470439, TV channel changed to 28
+1208371471298, User pressed TV channel up
+1208371472267, User pressed TV channel down
+1208371472798, User pressed TV channel down
+1208371473955, User pressed TV channel up
+1208371474626, User pressed TV channel up
+1208371522144, Simulation started
+1208371523582, User pressed On/Off hard button
+1208371524457, User opened device TV
+1208371525473, Transitioning to state Channel
+1208371526301, User pressed TV power button
+1208371527441, User pressed TV channel up
+1208371527691, User pressed TV channel up
+1208371527863, User pressed TV channel up
+1208371528645, User pressed the TV 2 button
+1208371529066, User pressed the TV 9 button
+1208371529082, TV channel changed to 29
+1208371530270, User pressed TV channel down
+1208371531379, User pressed TV channel up
+1208371532270, User pressed TV channel down
+1208371533051, User pressed TV channel down
+1208371534082, User pressed TV channel down
+1208371534567, User pressed TV channel down
+1208371535707, User pressed TV channel down
+1208371536926, User pressed TV channel up
+1208371537957, User pressed TV channel up
+1208371539004, User pressed TV channel up
+1208371539708, User pressed TV channel up
+1208371540692, User pressed TV channel down
+1208371541504, User pressed TV channel down
+1208371557271, Simulation started
+1208371574928, Error click
+1208371575694, User pressed On/Off hard button
+1208371576490, User pressed On/Off hard button
+1208371580209, Simulation started
+1208371581444, User pressed On/Off hard button
+1208371582194, User opened device TV
+1208371582772, Transitioning to state Channel
+1208371583350, User pressed the TV 2 button
+1208371583803, User pressed the TV 8 button
+1208371583803, TV channel not changed because TV is off
+1208371583819, TV channel changed to 28
+1208371585022, User pressed TV power button
+1208371586053, User pressed the TV 2 button
+1208371586569, User pressed the TV 8 button
+1208371586678, TV channel changed to 28
+1208371587507, User pressed TV channel up
+1208371589569, User pressed TV channel down
+1208371590304, User pressed TV channel down
+1208371591163, User pressed TV channel down
+1208371592022, User pressed TV channel down
+1208371592897, User pressed TV channel down
+1208371593757, User pressed TV channel up
+1208371594851, User pressed TV channel up
+1208371596444, User pressed TV channel down
+1208371597335, User pressed TV channel up
+1208371615430, Simulation started
+1208371617258, User pressed On/Off hard button
+1208371618024, User opened device TV
+1208371618570, Transitioning to state Channel
+1208371619820, User pressed TV power button
+1208371620383, User pressed the TV 2 button
+1208371620727, User pressed the TV 8 button
+1208371620852, TV channel changed to 28
+1208371621446, User pressed TV channel up
+1208371633821, User pressed On/Off hard button
+1208371666557, Simulation started
+1208371667995, User pressed On/Off hard button
+1208371668807, User opened device TV
+1208371669651, Transitioning to state Channel
+1208371670792, User pressed TV power button
+1208371671448, User pressed the TV 2 button
+1208371671838, User pressed the TV 8 button
+1208371671948, TV channel changed to 28
+1208371672479, User pressed TV channel up
+1208371701902, Simulation started
+1208371703355, User pressed On/Off hard button
+1208371704246, User opened device TV
+1208371705246, User pressed TV power button
+1208371707121, Transitioning to state Channel
+1208371708434, User pressed the TV 2 button
+1208371708840, User pressed the TV 8 button
+1208371708949, TV channel changed to 28
+1208371710809, User pressed TV channel down
+1208371711450, User pressed TV channel up
+1208371844424, Simulation started
+1208371870941, Simulation started
+1208371872676, User pressed On/Off hard button
+1208371873801, User opened device TV
+1208371874363, User pressed TV power button
+1208371875254, User pressed TV power button
+1208371875738, User pressed TV power button
+1208371875988, User pressed TV power button
+1208371876676, User pressed TV channel up
+1208371876691, TV turned on from channel up button
+1208371877301, User pressed TV channel up
+1208371877566, User pressed TV channel up
+1208371877691, User pressed TV channel up
+1208784410505, Simulation started
+1208784429461, Simulation started
+1208784483982, Simulation started
+url is null
+1208784530254, Simulation started
+url is null
+1208786679996, Simulation started
+1208786684395, Simulation started

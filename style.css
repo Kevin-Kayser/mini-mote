@@ -1,0 +1,22 @@
+body {
+	
+}
+h1{
+	text-align:center;	
+}
+#name {
+	float:left;
+	width:200px;
+	padding-left:10px;
+}
+#email {
+	float:left;
+}
+#row {
+	
+	clear:both;
+}
+#group {
+	clear:both;
+	padding-bottom:25px;	
+}	

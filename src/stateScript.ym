@@ -1,0 +1,197 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$   STATE:<name>  starts a new state named <name>
+$   @TGROUP:<name> starts a new Transition group <name>
+$	<^> References the Transition group <name>
+$	<imageFile> is on the line after STATE:<name>
+$   xCoord : yCoord : <target State> or <.>: <image filename> : <> or <signal to send>
+$   xCoord = X location on Grid 0-5
+$	yCoord = Y Location on Grid 0-7
+$	<target State> = State name as a string
+$	<.> = represents Loopback/ No Transition
+$	<> = nothing
+$	<signal to send> = character for device to parse as a signal
+$	
+$	Note that the last transition of x:y will be used to facilitate
+$   overriding TGROUP elements. Example:
+$     ^PremadeGroupIncluding0:0
+$     0:0:.:override
+$
+$
+$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+.TEXT:devname
+.TEXT:devtype
+
+#INCLUDE:defs.ym
+
+STATE:Main
+	image/device_selection.gif
+
+	^MainMiddleButtons
+	^MainBottomButtons	
+	
+STATE:Settings
+	image/device_selection.pressed.gif
+
+    ^AddDeviceButton
+    ^SettingsBottomButtons
+	
+STATE:TV
+	image/tv_function.gif
+	
+	^TopTVBar
+	^TVOnOff
+	
+	0:2:Channel:
+	0:3:Channel:
+	1:2:Channel:
+	1:3:Channel:
+	2:2:Channel:
+	2:3:Channel:
+	
+STATE:DVD
+	image/dvd_main.gif
+	
+	^TopTVBar
+	
+	3:6:DVDNav:
+	4:6:DVDNav:
+	
+	
+STATE:DVDNav
+	image/dvd_menu.gif
+	
+	1:7:DVD:
+	2:7:DVD:
+	3:7:DVD:
+	4:7:DVD:
+
+STATE:VCR
+	image/vcr_main.gif
+
+	^TopTVBar
+
+STATE:Channel
+	image/tv_keypad.gif
+
+	^TopTVBar
+	^TVOnOff
+	^TVNumberPad
+	
+	3:6:.:RECALL()
+	4:6:.:RECALL()
+	5:6:.:RECALL()
+
+STATE:AddDevice
+	image/add_device.gif
+
+	^SettingsMiddleButtons	
+
+	
+STATE:CancelAdd
+	image/add_device_cancel.gif
+	1:5:Main:CLEARTEXT(devname)
+	2:5:Main:CLEARTEXT(devname)
+	3:5:AddDevice:
+	4:5:AddDevice:
+	
+STATE:Keypad
+	image/keypad.gif
+	
+	^KeypadNumbers
+	^KeypadSpaceBackspaceSave
+		
+STATE:Keypad1
+	image/keypad.1.gif
+	
+	1:3:Keypad:ADDTEXT(devname,1)
+	2:3:Keypad:ADDTEXT(devname,.)
+	3:3:Keypad:ADDTEXT(devname,-)
+	4:3:Keypad:ADDTEXT(devname,!)
+	^KeypadSubmenuCancel
+	
+STATE:Keypad2
+	image/keypad.2.gif
+
+	1:3:Keypad:ADDTEXT(devname,2)
+	2:3:Keypad:ADDTEXT(devname,a)
+	3:3:Keypad:ADDTEXT(devname,b)
+	4:3:Keypad:ADDTEXT(devname,c)
+	^KeypadSubmenuCancel
+	
+STATE:Keypad3
+	image/keypad.3.gif
+	
+	1:3:Keypad:ADDTEXT(devname,3)
+	2:3:Keypad:ADDTEXT(devname,d)
+	3:3:Keypad:ADDTEXT(devname,e)
+	4:3:Keypad:ADDTEXT(devname,f)
+	^KeypadSubmenuCancel
+	
+STATE:Keypad4
+	image/keypad.4.gif
+	
+	1:3:Keypad:ADDTEXT(devname,4)
+	2:3:Keypad:ADDTEXT(devname,g)
+	3:3:Keypad:ADDTEXT(devname,h)
+	4:3:Keypad:ADDTEXT(devname,i)	
+	^KeypadSubmenuCancel
+	
+STATE:Keypad5
+	image/keypad.5.gif
+	
+	1:3:Keypad:ADDTEXT(devname,5)
+	2:3:Keypad:ADDTEXT(devname,j)
+	3:3:Keypad:ADDTEXT(devname,k)
+	4:3:Keypad:ADDTEXT(devname,l)	
+	^KeypadSubmenuCancel
+	
+STATE:Keypad6
+	image/keypad.6.gif
+
+	1:3:Keypad:ADDTEXT(devname,6)
+	2:3:Keypad:ADDTEXT(devname,m)
+	3:3:Keypad:ADDTEXT(devname,n)
+	4:3:Keypad:ADDTEXT(devname,o)
+	^KeypadSubmenuCancel
+		
+STATE:Keypad7
+	image/keypad.7.gif
+
+	1:3:Keypad:ADDTEXT(devname,7)
+	2:3:Keypad:ADDTEXT(devname,p)
+	3:3:Keypad:ADDTEXT(devname,q)
+	4:3:Keypad:ADDTEXT(devname,r)
+	^KeypadSubmenuCancel
+		
+STATE:Keypad8
+	image/keypad.8.gif
+	
+	1:3:Keypad:ADDTEXT(devname,8)
+	2:3:Keypad:ADDTEXT(devname,s)
+	3:3:Keypad:ADDTEXT(devname,t)
+	4:3:Keypad:ADDTEXT(devname,u)
+	^KeypadSubmenuCancel
+		
+STATE:Keypad9
+	image/keypad.9.gif
+
+	1:3:Keypad:ADDTEXT(devname,9)
+	2:3:Keypad:ADDTEXT(devname,v)
+	3:3:Keypad:ADDTEXT(devname,w)
+	4:3:Keypad:ADDTEXT(devname,x)
+	^KeypadSubmenuCancel
+		
+STATE:Keypad0
+	image/keypad.0.gif
+		
+	1:3:Keypad:ADDTEXT(devname,0)
+	2:3:Keypad:ADDTEXT(devname,y)
+	3:3:Keypad:ADDTEXT(devname,z)
+	^KeypadSubmenuCancel
+
+STATE:Type
+	image/type.gif
+	
+	^NewDeviceType

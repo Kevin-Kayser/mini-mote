@@ -1,0 +1,75 @@
+body {
+	background: #EEE;
+	text-align: center; /*IE5 hack*/
+}
+
+#dark {
+	padding-right:5px;
+        float:right;
+        color:#222;
+        cursor:hand;
+        cursor:pointer;
+}
+#light {
+	padding-left:5px;
+        float:left;
+        color:#DDD;
+        cursor:hand;
+        cursor:pointer;
+}
+
+#hole{
+	width: 600px;
+	margin:15px auto;
+	/*border:1px solid #9f9f9f;*/
+	padding-top:15px;
+	padding-bottom: 30px;
+	background-color: #DDD;	
+}
+h1{
+	background-color: #DDD;
+	font:1.8em/1 Georgia, "Times New Roman", Times, serif;
+	font-weight:900;
+	font-style:italic;
+	color: #606060;
+}
+h2{
+
+	font:1.2em/1 Georgia, "Times New Roman", Times, serif;
+	font-weight:800;
+	color: #606060;
+}
+
+a:link {color:#333; text-decoration: underline; }
+a:active {color:#333; text-decoration: underline; }
+a:visited {color:#333; text-decoration: underline; }	
+a:hover {color:#222; text-decoration: none; }
+
+#name {
+	float:left;
+	width:200px;
+	padding-left:10px;
+}
+#email {
+	float:center;
+}
+#row {	
+	clear:both;
+}
+#group {
+	color: #606060;
+	width: 500px;
+	margin:5px auto;
+	text-align: left; /* Counteract to IE5/Win Hack */
+	padding:15px;
+	border:1px dashed #606060;
+	background-color: #DDD;
+	clear:both;
+	padding-bottom:25px;	
+}
+#group>#row{
+    padding-left: 10px;
+    }
+#footer{
+	padding-top: 15px;
+	}
